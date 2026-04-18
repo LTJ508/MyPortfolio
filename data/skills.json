@@ -2,22 +2,27 @@
   "groups": [
     {
       "category": "Programming Languages",
+      "emoji": "💻",
       "items": ["C", "C++", "C#", "Java", "Python", "SQL", "PL/SQL", "HTML/CSS"]
     },
     {
       "category": "Frameworks & Platforms",
+      "emoji": "🚀",
       "items": ["Oracle APEX", "Django", "Oracle Cloud (OCI)", "Jasper Reports"]
     },
     {
       "category": "Database",
+      "emoji": "🗄️",
       "items": ["Oracle ORDBMS", "MySQL", "MongoDB", "PostgreSQL"]
     },
     {
       "category": "Tools & Software",
+      "emoji": "🛠️",
       "items": ["Git", "VS Code", "SQL Developer", "Toad", "MS Office"]
     },
     {
       "category": "Core Competencies",
+      "emoji": "🧠",
       "items": ["Research & Academic Writing", "Problem Solving", "Machine Learning Pipelines", "Database Design & Optimization", "Software Design & Debugging"]
     }
   ]

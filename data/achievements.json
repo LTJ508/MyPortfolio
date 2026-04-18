@@ -1,18 +1,21 @@
 {
   "items": [
     {
+      "emoji": "🏅",
       "title": "100% Tuition Fee Waiver",
       "provider": "North South University",
       "context": "Undergraduate Program",
       "year": "2025"
     },
     {
+        "emoji": "🥈",
         "title": "2nd Position in Programming Contest",
         "provider": "EUSCIAN Science & Technology Club",
         "context": "EUSCIAN Science & Technology Fair 2018",
         "year": "2018"
     },
     {
+      "emoji": "🎓",
       "title": "General Grade Scholarship",
       "provider": "Dhaka Education Board",
       "context": "Junior School Certificate (JSC) Examination",

@@ -22,10 +22,12 @@ export function renderSkills(data, filtersElement, mountElement) {
     mountElement.innerHTML = groups
       .map((group) => {
         const items = (group.items || []).map((item) => `<span class="chip">${escapeHtml(item)}</span>`).join("");
+        const icon = group.emoji || "✨";
 
         return `
-          <article class="card">
-            <h3>${escapeHtml(group.category)}</h3>
+          <article class="card floating-card skill-card">
+            <div class="card-icon">${escapeHtml(icon)}</div>
+            <h3 class="card-title">${escapeHtml(group.category)}</h3>
             <div class="meta">${items}</div>
           </article>
         `;

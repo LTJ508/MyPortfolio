@@ -7,12 +7,7 @@ export function renderPublications(data, mountElement) {
 
       return `
         <article class="card">
-          <h3>${escapeHtml(item.title)}</h3>
-          <div class="meta">
-            <span class="chip">${escapeHtml(item.status)}</span>
-            <span class="chip">Year: ${escapeHtml(item.year)}</span>
-            <span class="chip">${escapeHtml(item.authorOrder)}</span>
-          </div>
+          <p class="single-line"><strong>${escapeHtml(item.title)}</strong> - ${escapeHtml(item.status)} (${escapeHtml(item.year)}) - ${escapeHtml(item.authorOrder)}</p>
           ${doiLink ? `<a class="link-tag" href="${escapeHtml(doiLink)}" target="_blank" rel="noopener noreferrer">DOI: ${escapeHtml(item.doi)}</a>` : ""}
         </article>
       `;

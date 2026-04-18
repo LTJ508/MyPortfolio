@@ -6,9 +6,10 @@ export function renderAchievements(data, mountElement) {
   mountElement.innerHTML = items
     .map(
       (item) => `
-      <article class="card">
-        <h3>${escapeHtml(item.title)}</h3>
-        <p>${escapeHtml(item.provider)}</p>
+      <article class="card floating-card achievement-card">
+        <div class="card-icon">${escapeHtml(item.emoji || "🏆")}</div>
+        <h3 class="card-title">${escapeHtml(item.title)}</h3>
+        <p class="card-subtitle">${escapeHtml(item.provider)}</p>
         <div class="meta">
           <span class="chip">Year: ${escapeHtml(item.year)}</span>
           <span class="chip">${escapeHtml(item.context)}</span>

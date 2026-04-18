@@ -19,18 +19,19 @@
 
 .card:hover {
   transform: translateY(-4px);
-  border-color: rgba(37, 99, 235, 0.4);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(102, 126, 234, 0.4);
+  box-shadow: 0 15px 40px rgba(102, 126, 234, 0.22);
 }
 
 .site-nav a {
   text-decoration: none;
-  color: var(--text-muted);
-  transition: color 180ms ease;
+  color: rgba(255, 255, 255, 0.92);
+  transition: color 180ms ease, transform 180ms ease;
 }
 
 .site-nav a:hover {
-  color: var(--accent);
+  color: #c7d2fe;
+  transform: translateY(-1px);
 }
 
 @media (prefers-reduced-motion: reduce) {

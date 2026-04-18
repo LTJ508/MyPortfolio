@@ -21,17 +21,18 @@ export function renderProjects(data, filtersElement, mountElement) {
         const technologies = (item.technologies || []).map((tech) => `<span class="chip">${escapeHtml(tech)}</span>`).join("");
 
         return `
-          <article class="card">
-            <h3>${escapeHtml(item.emoji || "")}&nbsp; ${escapeHtml(item.name)}</h3>
-            <p>${escapeHtml(item.details)}</p>
+          <article class="card floating-card project-card">
+            <div class="card-icon">${escapeHtml(item.emoji || "📦")}</div>
+            <h3 class="card-title multi-line">${escapeHtml(item.name)}</h3>
+            <p class="card-description multi-line">${escapeHtml(item.details)}</p>
             <div class="meta">
               <span class="chip">${escapeHtml(item.category)}</span>
               <span class="chip">Completed: ${escapeHtml(item.completedAt)}</span>
             </div>
             ${technologies ? `<div class="meta">${technologies}</div>` : ""}
-            <div class="link-group">
-              ${demo ? `<a class="link-tag" href="${escapeHtml(demo)}" target="_blank" rel="noopener noreferrer">Live Demo</a>` : ""}
-              ${repo ? `<a class="link-tag" href="${escapeHtml(repo)}" target="_blank" rel="noopener noreferrer">Repository</a>` : ""}
+            <div class="link-group centered-links">
+              ${demo ? `<a class="btn btn-link-action" href="${escapeHtml(demo)}" target="_blank" rel="noopener noreferrer">Live Demo</a>` : ""}
+              ${repo ? `<a class="btn btn-link-action" href="${escapeHtml(repo)}" target="_blank" rel="noopener noreferrer">Repository</a>` : ""}
             </div>
           </article>
         `;

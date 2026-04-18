@@ -5,12 +5,7 @@ export function renderEducation(data, mountElement) {
     .map(
       (item) => `
       <article class="card">
-        <h3>${escapeHtml(item.degree)}</h3>
-        <p>${escapeHtml(item.institution)}</p>
-        <div class="meta">
-          <span class="chip">Passing Year: ${escapeHtml(item.passingYear)}</span>
-          <span class="chip">Result: ${escapeHtml(item.result)}</span>
-        </div>
+        <p class="single-line"><strong>${escapeHtml(item.degree)}</strong> - ${escapeHtml(item.institution)} - ${escapeHtml(item.passingYear)} - ${escapeHtml(item.result)}</p>
       </article>
     `
     )

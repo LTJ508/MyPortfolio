@@ -1,5 +1,4 @@
 import { fetchJson, fetchText } from "./utils.js";
-import { renderAbout } from "./renderers/about.js";
 import { renderEducation } from "./renderers/education.js";
 import { renderExperience } from "./renderers/experience.js";
 import { renderSkills } from "./renderers/skills.js";
@@ -10,7 +9,6 @@ import { renderAchievements } from "./renderers/achievements.js";
 import { renderContact } from "./renderers/contact.js";
 
 const dataFiles = {
-  about: "data/about.json",
   education: "data/education.json",
   experience: "data/experience.json",
   skills: "data/skills.json",
@@ -22,7 +20,6 @@ const dataFiles = {
 };
 
 const renderers = {
-  about: (data, site) => renderAbout(data, document.getElementById("about-content"), site.resumePath),
   education: (data) => renderEducation(data, document.getElementById("education-content")),
   experience: (data) => renderExperience(data, document.getElementById("experience-content")),
   skills: (data) => renderSkills(data, document.getElementById("skills-filters"), document.getElementById("skills-content")),
@@ -33,6 +30,75 @@ const renderers = {
   achievements: (data) => renderAchievements(data, document.getElementById("achievements-content")),
   contact: (data) => renderContact(data, document.getElementById("contact-content")),
 };
+
+const typingTexts = [
+    "Quantum Computing",
+    "Quantum Cryptography",
+    "Machine Learning",
+    "Scientific Software Development",
+    "Research and Publications",
+];
+
+function startAboutTypingAnimation() {
+  const typingElement = document.getElementById("typing-text");
+  if (!typingElement) {
+    return;
+  }
+
+  let textIndex = 0;
+  let charIndex = 0;
+  let isDeleting = false;
+  let typingSpeed = 100;
+
+  function typeEffect() {
+    const currentText = typingTexts[textIndex];
+
+    if (isDeleting) {
+      typingElement.textContent = currentText.substring(0, charIndex - 1);
+      charIndex -= 1;
+      typingSpeed = 50;
+    } else {
+      typingElement.textContent = currentText.substring(0, charIndex + 1);
+      charIndex += 1;
+      typingSpeed = 100;
+    }
+
+    if (!isDeleting && charIndex === currentText.length) {
+      isDeleting = true;
+      typingSpeed = 2000;
+    } else if (isDeleting && charIndex === 0) {
+      isDeleting = false;
+      textIndex = (textIndex + 1) % typingTexts.length;
+      typingSpeed = 500;
+    }
+
+    setTimeout(typeEffect, typingSpeed);
+  }
+
+  setTimeout(typeEffect, 1000);
+}
+
+function setupScrollToTop() {
+  const scrollButton = document.getElementById("scroll-to-top");
+  if (!scrollButton) {
+    return;
+  }
+
+  const updateVisibility = () => {
+    if (window.pageYOffset > 300) {
+      scrollButton.classList.add("visible");
+    } else {
+      scrollButton.classList.remove("visible");
+    }
+  };
+
+  window.addEventListener("scroll", updateVisibility, { passive: true });
+  updateVisibility();
+
+  scrollButton.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
 
 async function loadSections(order, rootElement) {
   for (const key of order) {
@@ -81,6 +147,8 @@ async function start() {
   }
 
   await loadFooter(site);
+  startAboutTypingAnimation();
+  setupScrollToTop();
 }
 
 start().catch((error) => {

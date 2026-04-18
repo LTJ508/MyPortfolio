@@ -1,15 +1,15 @@
 :root {
-  --bg-0: #ffffff;
-  --bg-1: #f5f7fa;
-  --bg-2: #eef2f7;
+  --bg-0: #f5f7fa;
+  --bg-1: #c3cfe2;
+  --bg-2: #eef2ff;
   --surface: rgba(255, 255, 255, 0.95);
-  --surface-strong: rgba(248, 250, 252, 0.98);
+  --surface-strong: rgba(255, 255, 255, 0.98);
   --text-main: #1a202c;
-  --text-muted: #4a5568;
-  --accent: #2563eb;
-  --accent-strong: #1d4ed8;
+  --text-muted: #475569;
+  --accent: #667eea;
+  --accent-strong: #764ba2;
   --border: rgba(15, 23, 42, 0.1);
-  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
   --radius-md: 14px;
   --radius-lg: 20px;
   --radius-xl: 28px;
@@ -33,7 +33,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: "Outfit", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   color: var(--text-main);
   background: linear-gradient(135deg, var(--bg-0) 0%, var(--bg-1) 100%);
 }
@@ -43,8 +43,8 @@ h2,
 h3,
 h4 {
   margin: 0;
-  font-family: "Space Grotesk", sans-serif;
-  letter-spacing: 0.02em;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0.01em;
 }
 
 p {
@@ -75,13 +75,13 @@ select {
   z-index: -1;
   border-radius: 999px;
   filter: blur(30px);
-  opacity: 0.25;
+  opacity: 0.35;
 }
 
 .page-bg::before {
   width: 260px;
   height: 260px;
-  background: rgba(37, 99, 235, 0.05);
+  background: rgba(102, 126, 234, 0.16);
   top: -80px;
   right: -30px;
 }
@@ -89,7 +89,7 @@ select {
 .page-bg::after {
   width: 280px;
   height: 280px;
-  background: rgba(59, 130, 246, 0.04);
+  background: rgba(118, 75, 162, 0.12);
   bottom: -120px;
   left: -40px;
 }
