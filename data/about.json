@@ -1,0 +1,27 @@
+{
+  "headline": "Building practical software with data-driven thinking",
+  "shortBio": "I am a technology enthusiast focused on solving real-world problems through software engineering, data analysis, and continuous learning. I enjoy building usable products, exploring new tools, and improving systems through thoughtful design and implementation.",
+  "interests": [
+    "Software Engineering",
+    "Data Science",
+    "Web Development",
+    "Research and Publications"
+  ],
+  "quickContacts": [
+    {
+      "label": "Email",
+      "value": "your.email@example.com",
+      "href": "mailto:your.email@example.com"
+    },
+    {
+      "label": "LinkedIn",
+      "value": "linkedin.com/in/your-profile",
+      "href": "https://linkedin.com/in/your-profile"
+    },
+    {
+      "label": "GitHub",
+      "value": "github.com/LTJ508",
+      "href": "https://github.com/LTJ508"
+    }
+  ]
+}

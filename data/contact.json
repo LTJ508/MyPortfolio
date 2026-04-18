@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "type": "Phone",
+      "value": "+880-1XXXXXXXXX",
+      "href": "tel:+8801XXXXXXXXX"
+    },
+    {
+      "type": "Email",
+      "value": "your.email@example.com",
+      "href": "mailto:your.email@example.com"
+    },
+    {
+      "type": "Location",
+      "value": "Dhaka, Bangladesh"
+    },
+    {
+      "type": "LinkedIn",
+      "value": "linkedin.com/in/your-profile",
+      "href": "https://linkedin.com/in/your-profile"
+    },
+    {
+      "type": "ORCID",
+      "value": "0000-0000-0000-0000",
+      "href": "https://orcid.org/0000-0000-0000-0000"
+    },
+    {
+      "type": "GitHub",
+      "value": "github.com/LTJ508",
+      "href": "https://github.com/LTJ508"
+    }
+  ]
+}

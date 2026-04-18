@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "role": "Software Engineering Intern",
+      "company": "Example Tech Ltd.",
+      "location": "Dhaka, Bangladesh",
+      "period": "Jan 2025 - Jun 2025",
+      "details": "Assisted in developing internal tools, improved dashboard usability, and collaborated with cross-functional teams to ship features on time."
+    },
+    {
+      "role": "Research Assistant",
+      "company": "Example Lab",
+      "location": "Dhaka, Bangladesh",
+      "period": "Sep 2024 - Dec 2024",
+      "details": "Supported research pipeline implementation, data preprocessing, and experimental result documentation."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "name": "Portfolio Analytics Dashboard",
+      "emoji": "\ud83d\udcca",
+      "details": "Interactive dashboard that tracks project performance and technology usage patterns.",
+      "category": "Web Application",
+      "completedAt": "2025-12-15",
+      "links": {
+        "demo": "https://example.com/demo-portfolio-dashboard",
+        "repo": "https://github.com/LTJ508/portfolio-dashboard"
+      }
+    },
+    {
+      "name": "Campus Shuttle Tracker",
+      "emoji": "\ud83d\ude8c",
+      "details": "Location-aware app concept for students to view shuttle ETA and route updates.",
+      "category": "Mobile-Friendly Web",
+      "completedAt": "2024-10-03",
+      "links": {
+        "repo": "https://github.com/LTJ508/campus-shuttle-tracker"
+      }
+    },
+    {
+      "name": "Research Paper Organizer",
+      "emoji": "\ud83d\udcd6",
+      "details": "Tool to classify papers, track reading status, and maintain citation notes.",
+      "category": "Productivity Tool",
+      "completedAt": "2023-06-10",
+      "links": {
+        "demo": "https://example.com/research-organizer"
+      }
+    }
+  ]
+}

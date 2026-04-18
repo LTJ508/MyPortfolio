@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "course": "Machine Learning Specialization",
+      "emoji": "\ud83e\udde0",
+      "provider": "Coursera",
+      "date": "2025-11-18",
+      "verificationLink": "https://example.com/cert-ml"
+    },
+    {
+      "course": "AWS Cloud Practitioner",
+      "emoji": "\u2601\ufe0f",
+      "provider": "Amazon Web Services",
+      "date": "2024-07-22",
+      "verificationLink": "https://example.com/cert-aws"
+    },
+    {
+      "course": "SQL for Data Analysis",
+      "emoji": "\ud83d\uddc4\ufe0f",
+      "provider": "Coursera",
+      "date": "2023-04-08",
+      "verificationLink": "https://example.com/cert-sql"
+    }
+  ]
+}

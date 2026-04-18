@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "category": "Programming Languages",
+      "items": ["JavaScript", "Python", "C", "C++"]
+    },
+    {
+      "category": "Frameworks & Platforms",
+      "items": ["Node.js", "Express.js", "React", "GitHub Pages"]
+    },
+    {
+      "category": "Database",
+      "items": ["MySQL", "MongoDB", "PostgreSQL"]
+    },
+    {
+      "category": "Tools",
+      "items": ["Git", "VS Code", "Postman", "Figma"]
+    },
+    {
+      "category": "Core Competencies",
+      "items": ["Problem Solving", "System Design Basics", "Technical Writing", "Team Collaboration"]
+    }
+  ]
+}

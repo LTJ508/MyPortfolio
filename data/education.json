@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "degree": "BSc in Computer Science and Engineering",
+      "institution": "North South University",
+      "passingYear": "2026",
+      "result": "CGPA 3.85 out of 4.00"
+    },
+    {
+      "degree": "Higher Secondary Certificate (Science)",
+      "institution": "Example College",
+      "passingYear": "2021",
+      "result": "GPA 5.00 out of 5.00"
+    }
+  ]
+}

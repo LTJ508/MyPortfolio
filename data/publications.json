@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "title": "A Comparative Study on Lightweight Attention Models",
+      "status": "Published",
+      "year": "2025",
+      "authorOrder": "First Author",
+      "doi": "10.1000/example-doi-001"
+    },
+    {
+      "title": "Context-Aware Academic Recommendation Pipeline",
+      "status": "Under Review",
+      "year": "2026",
+      "authorOrder": "Second Author"
+    },
+    {
+      "title": "Adaptive Benchmarking in Educational Data Mining",
+      "status": "Manuscript in Preparation",
+      "year": "2026",
+      "authorOrder": "First Equal"
+    }
+  ]
+}
