@@ -4,19 +4,19 @@
       "title": "100% Tuition Fee Waiver",
       "provider": "North South University",
       "context": "Undergraduate Program",
-      "year": "2024"
+      "year": "2025"
     },
     {
-      "title": "Dean's List Distinction",
-      "provider": "North South University",
-      "context": "Academic Performance",
-      "year": "2023"
+        "title": "2nd Position in Programming Contest",
+        "provider": "EUSCIAN Science & Technology Club",
+        "context": "EUSCIAN Science & Technology Fair 2018",
+        "year": "2018"
     },
     {
-      "title": "Best Project Showcase Award",
-      "provider": "Department of CSE",
-      "context": "Final Year Project Exhibition",
-      "year": "2022"
+      "title": "General Grade Scholarship",
+      "provider": "Dhaka Education Board",
+      "context": "Junior School Certificate (JSC) Examination",
+      "year": "2014"
     }
   ]
 }

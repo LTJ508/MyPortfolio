@@ -1,22 +1,23 @@
 {
-  "headline": "Building practical software with data-driven thinking",
-  "shortBio": "I am a technology enthusiast focused on solving real-world problems through software engineering, data analysis, and continuous learning. I enjoy building usable products, exploring new tools, and improving systems through thoughtful design and implementation.",
+  "headline": "Quantum Computing Researcher | Quantum Cryptography | Software Engineer",
+  "shortBio": "I am Joy Kumar Ghosh, a Computer Science graduate from North South University with a CGPA of 3.77/4.00. I have strong foundations in software engineering, backend systems, databases, machine learning, and quantum computing research. I have professional experience as an Oracle APEX Web Application Developer Intern at MySoft Limited (Aug 2025 – Nov 2025), working on enterprise-scale backend systems.",
   "interests": [
-    "Software Engineering",
-    "Data Science",
-    "Web Development",
+    "Quantum Computing",
+    "Quantum Cryptography",
+    "Machine Learning",
+    "Scientific Software Development",
     "Research and Publications"
   ],
   "quickContacts": [
     {
       "label": "Email",
-      "value": "your.email@example.com",
-      "href": "mailto:your.email@example.com"
+      "value": "joydevghosh.joy.jgj@gmail.com",
+      "href": "mailto:joydevghosh.joy.jgj@gmail.com"
     },
     {
       "label": "LinkedIn",
-      "value": "linkedin.com/in/your-profile",
-      "href": "https://linkedin.com/in/your-profile"
+      "value": "linkedin.com/in/joy-kumar-ghosh",
+      "href": "https://linkedin.com/in/joy-kumar-ghosh"
     },
     {
       "label": "GitHub",
@@ -25,3 +26,5 @@
     }
   ]
 }
+
+

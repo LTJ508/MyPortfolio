@@ -2,27 +2,27 @@
   "items": [
     {
       "type": "Phone",
-      "value": "+880-1XXXXXXXXX",
-      "href": "tel:+8801XXXXXXXXX"
+      "value": "+880-1704449534",
+      "href": "tel:+8801704449534"
     },
     {
       "type": "Email",
-      "value": "your.email@example.com",
-      "href": "mailto:your.email@example.com"
+      "value": "joydevghosh.joy.jgj@gmail.com",
+      "href": "mailto:joydevghosh.joy.jgj@gmail.com"
     },
     {
       "type": "Location",
-      "value": "Dhaka, Bangladesh"
+      "value": "Savar, Dhaka, Bangladesh"
     },
     {
       "type": "LinkedIn",
-      "value": "linkedin.com/in/your-profile",
-      "href": "https://linkedin.com/in/your-profile"
+      "value": "linkedin.com/in/joy-kumar-ghosh",
+      "href": "https://linkedin.com/in/joy-kumar-ghosh"
     },
     {
       "type": "ORCID",
-      "value": "0000-0000-0000-0000",
-      "href": "https://orcid.org/0000-0000-0000-0000"
+      "value": "0009-0003-5858-8572",
+      "href": "https://orcid.org/0009-0003-5858-8572"
     },
     {
       "type": "GitHub",
