@@ -1,9 +1,9 @@
-import { createMultiFilter, renderFilterControls } from "../filters.js";
+import { createSingleFilter, renderFilterControls } from "../filters.js";
 import { escapeHtml, parseDateValue, safeLink } from "../utils.js";
 
 export function renderProjects(data, filtersElement, mountElement) {
   const items = [...(data.items || [])].sort((a, b) => parseDateValue(b.completedAt) - parseDateValue(a.completedAt));
-  const filter = createMultiFilter(items, "category");
+  const filter = createSingleFilter(items, "category");
 
   function paint() {
     renderFilterControls(filtersElement, filter, paint);
@@ -18,6 +18,7 @@ export function renderProjects(data, filtersElement, mountElement) {
       .map((item) => {
         const demo = safeLink(item.links?.demo);
         const repo = safeLink(item.links?.repo);
+        const technologies = (item.technologies || []).map((tech) => `<span class="chip">${escapeHtml(tech)}</span>`).join("");
 
         return `
           <article class="card">
@@ -27,6 +28,7 @@ export function renderProjects(data, filtersElement, mountElement) {
               <span class="chip">${escapeHtml(item.category)}</span>
               <span class="chip">Completed: ${escapeHtml(item.completedAt)}</span>
             </div>
+            ${technologies ? `<div class="meta">${technologies}</div>` : ""}
             <div class="link-group">
               ${demo ? `<a class="link-tag" href="${escapeHtml(demo)}" target="_blank" rel="noopener noreferrer">Live Demo</a>` : ""}
               ${repo ? `<a class="link-tag" href="${escapeHtml(repo)}" target="_blank" rel="noopener noreferrer">Repository</a>` : ""}

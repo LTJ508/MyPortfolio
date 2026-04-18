@@ -14,8 +14,8 @@
 }
 
 .btn-primary {
-  background: linear-gradient(140deg, #1fd7cd, #23a7dc);
-  color: #09202d;
+  background: linear-gradient(140deg, #2563eb, #1d4ed8);
+  color: #ffffff;
 }
 
 .btn:hover {
@@ -43,9 +43,9 @@
 
 .chip {
   border-radius: 999px;
-  border: 1px solid rgba(157, 215, 239, 0.45);
+  border: 1px solid rgba(37, 99, 235, 0.2);
   color: var(--text-muted);
-  background: rgba(10, 35, 49, 0.9);
+  background: rgba(37, 99, 235, 0.08);
   padding: 0.25rem 0.65rem;
   font-size: 0.83rem;
 }
@@ -59,16 +59,23 @@
 
 .filter-chip {
   border-radius: 999px;
-  border: 1px solid rgba(117, 196, 236, 0.6);
-  color: var(--text-main);
-  background: rgba(5, 38, 56, 0.85);
+  border: 1px solid rgba(37, 99, 235, 0.3);
+  color: var(--text-muted);
+  background: rgba(37, 99, 235, 0.05);
   padding: 0.35rem 0.8rem;
   cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.filter-chip:hover {
+  border-color: rgba(37, 99, 235, 0.6);
+  background: rgba(37, 99, 235, 0.12);
 }
 
 .filter-chip.active {
-  background: rgba(49, 212, 197, 0.2);
+  background: rgba(37, 99, 235, 0.15);
   border-color: var(--accent);
+  color: var(--accent);
 }
 
 .link-group {
@@ -79,7 +86,7 @@
 }
 
 .link-tag {
-  color: var(--accent-strong);
+  color: var(--accent);
   text-decoration: none;
 }
 
@@ -93,6 +100,16 @@
 }
 
 @media (min-width: 680px) {
+  .grid.cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .grid.cols-3 {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
   .grid.cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }

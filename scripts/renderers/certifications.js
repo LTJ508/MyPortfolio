@@ -1,16 +1,16 @@
-import { createMultiFilter, renderFilterControls } from "../filters.js";
+import { createSingleFilter, renderFilterControls } from "../filters.js";
 import { escapeHtml, parseDateValue, safeLink } from "../utils.js";
 
 export function renderCertifications(data, filtersElement, mountElement) {
   const items = [...(data.items || [])].sort((a, b) => parseDateValue(b.date) - parseDateValue(a.date));
-  const filter = createMultiFilter(items, "provider");
+  const filter = createSingleFilter(items, "provider");
 
   function paint() {
     renderFilterControls(filtersElement, filter, paint);
 
     const filtered = filter.apply();
     if (!filtered.length) {
-      mountElement.innerHTML = '<p class="empty-state">No certifications found for selected provider(s).</p>';
+      mountElement.innerHTML = '<p class="empty-state">No certifications found for selected provider.</p>';
       return;
     }
 

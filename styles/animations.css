@@ -19,8 +19,8 @@
 
 .card:hover {
   transform: translateY(-4px);
-  border-color: rgba(129, 225, 223, 0.85);
-  box-shadow: 0 14px 24px rgba(0, 0, 0, 0.24);
+  border-color: rgba(37, 99, 235, 0.4);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
 }
 
 .site-nav a {
@@ -30,7 +30,7 @@
 }
 
 .site-nav a:hover {
-  color: var(--text-main);
+  color: var(--accent);
 }
 
 @media (prefers-reduced-motion: reduce) {
