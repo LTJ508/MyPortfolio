@@ -279,9 +279,17 @@
 }
 
 .single-line {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+}
+
+@media (min-width: 1024px) {
+  .single-line {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 .multi-line {
