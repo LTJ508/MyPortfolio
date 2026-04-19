@@ -2,7 +2,7 @@
   "items": [
     {
       "name": "Outpatients Appointment System",
-      "emoji": "\ud83d\udcca",
+      "emoji": "🏥",
       "details": "Oracle APEX based hospital appointment system with real-time scheduling and patient management.",
       "category": "Web Application",
       "technologies": ["Oracle APEX", "PL/SQL", "Oracle Database"],
@@ -13,7 +13,7 @@
     },
     {
       "name": "Nationwide Hospital & Patient Management System",
-      "emoji": "\ud83d\ude8c",
+      "emoji": "🏨",
       "details": "Large-scale healthcare system with comprehensive patient records, appointment scheduling, and billing.",
       "category": "Web Application",
       "technologies": ["MySQL", "PHP"],
@@ -24,7 +24,7 @@
     },
     {
       "name": "Bangla Programming Language",
-      "emoji": "\ud83d\udcd6",
+      "emoji": "💻",
       "details": "Custom compiler for Bangla programming language with lexical analysis, parsing, and code generation.",
       "category": "Compiler Design",
       "technologies": ["C++", "ANTLR"],
@@ -35,7 +35,7 @@
     },
     {
       "name": "Inventory Management & Billing System",
-      "emoji": "\ud83d\udcd6",
+      "emoji": "📦",
       "details": "Desktop application for inventory tracking, sales management, and automated billing with reporting.",
       "category": "Desktop Application",
       "technologies": ["Java", "Java Swing", "OOP"],
@@ -46,7 +46,7 @@
     },
     {
       "name": "Diary Management System",
-      "emoji": "\ud83d\udcd6",
+      "emoji": "📓",
       "details": "Console-based personal diary system with encryption, search functionality, and data persistence.",
       "category": "Console Application",
       "technologies": ["C", "File Handling", "Data Structures"],
@@ -57,7 +57,7 @@
     },
     {
       "name": "Tomato Leaf Disease Detection",
-      "emoji": "\ud83d\udcd6",
+      "emoji": "🍅",
       "details": "Machine learning model for agricultural disease detection using CNN with LIME explainability framework.",
       "category": "Machine Learning",
       "technologies": ["Python", "TensorFlow", "CNN", "LIME"],
