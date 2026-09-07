@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "name": "Outpatients Appointment System",
+      "emoji": "🏥",
+      "details": "Oracle APEX based hospital appointment system with real-time scheduling and patient management.",
+      "category": "Web Application",
+      "technologies": ["Oracle APEX", "PL/SQL", "Oracle Database"],
+      "completedAt": "2025-11-10",
+      "links": {
+        "demo": "https://oracleapex.com/ords/r/ltj508/opd-appointment-system/"
+      }
+    },
+    {
+      "name": "Nationwide Hospital & Patient Management System",
+      "emoji": "🏨",
+      "details": "Large-scale healthcare system with comprehensive patient records, appointment scheduling, and billing.",
+      "category": "Web Application",
+      "technologies": ["MySQL", "PHP"],
+      "completedAt": "2023-11-23",
+      "links": {
+        "repo": "https://github.com/LTJ508/Centralized-Hospital-Management-System-Using-MySQL"
+      }
+    },
+    {
+      "name": "Bangla Programming Language",
+      "emoji": "💻",
+      "details": "Custom compiler for Bangla programming language with lexical analysis, parsing, and code generation.",
+      "category": "Compiler Design",
+      "technologies": ["C++", "ANTLR"],
+      "completedAt": "2024-12-24",
+      "links": {
+        "repo": "https://github.com/LTJ508/Bangla_Programing_Language"
+      }
+    },
+    {
+      "name": "Inventory Management & Billing System",
+      "emoji": "📦",
+      "details": "Desktop application for inventory tracking, sales management, and automated billing with reporting.",
+      "category": "Desktop Application",
+      "technologies": ["Java", "Java Swing", "OOP"],
+      "completedAt": "2022-12-26",
+      "links": {
+        "repo": "https://github.com/LTJ508/Inventory-Management-and-Billing-System-JAVA"
+      }
+    },
+    {
+      "name": "Diary Management System",
+      "emoji": "📓",
+      "details": "Console-based personal diary system with encryption, search functionality, and data persistence.",
+      "category": "Console Application",
+      "technologies": ["C", "File Handling", "Data Structures"],
+      "completedAt": "2022-04-24",
+      "links": {
+        "repo": "https://github.com/LTJ508/Diary-Management-System-C"
+      }
+    },
+    {
+      "name": "Tomato Leaf Disease Detection",
+      "emoji": "🍅",
+      "details": "Machine learning model for agricultural disease detection using CNN with LIME explainability framework.",
+      "category": "Machine Learning",
+      "technologies": ["Python", "TensorFlow", "CNN", "LIME"],
+      "completedAt": "2025-04-18",
+      "links": {
+        "repo": "https://github.com/LTJ508/CNN_Model"
+      }
+    }
+  ]
+}

@@ -1,46 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Joy Kumar Ghosh | Portfolio</title>
-    <meta
-      name="description"
-      content="Portfolio of Joy Kumar Ghosh featuring education, experience, skills, certifications, projects, publications, achievements, and contact details."
-    />
-    <link rel="stylesheet" href="styles/base.css" />
-    <link rel="stylesheet" href="styles/layout.css" />
-    <link rel="stylesheet" href="styles/components.css" />
-    <link rel="stylesheet" href="styles/animations.css" />
-  </head>
-  <body>
-    <div class="page-bg" aria-hidden="true"></div>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joy Kumar Ghosh | Quantum Computing & Cryptography Researcher</title>
+  <meta name="description" content="Academic portfolio of Joy Kumar Ghosh — Computer Science graduate and quantum computing researcher. First-author publication in APL Quantum. Seeking PhD opportunities in quantum cryptography and QKD.">
+  <meta name="keywords" content="Joy Kumar Ghosh, Quantum Computing, Quantum Cryptography, QKD, PhD, Research, North South University, APL Quantum">
+  <meta name="author" content="Joy Kumar Ghosh">
 
-    <header class="site-header">
-      <div class="container header-inner">
-        <a id="brand-name" class="brand" href="#about">Joy Kumar Ghosh</a>
-        <nav class="site-nav" aria-label="Primary Navigation">
-          <a href="#about">About</a>
-          <a href="#education">Education</a>
-          <a href="#experience">Experience</a>
-          <a href="#certifications">Certifications</a>
-          <a href="#projects">Projects</a>
-          <a href="#publications">Publications</a>
-          <a href="#skills">Skills</a>
-          <a href="#achievements">Achievements</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <a id="resume-download" class="btn btn-primary" href="resume/Joy%20Kumar%20Ghosh.pdf" download>
-          Download Resume
-        </a>
+  <!-- Open Graph -->
+  <meta property="og:title" content="Joy Kumar Ghosh | Quantum Computing & Cryptography Researcher">
+  <meta property="og:description" content="Academic portfolio — First-author publication in APL Quantum. Seeking PhD opportunities in quantum cryptography and QKD.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ltj508.github.io">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo">JKG<span class="logo-dot">.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="nav-link active" data-section="hero">About</a></li>
+        <li><a href="#research" class="nav-link" data-section="research">Research</a></li>
+        <li><a href="#publications" class="nav-link" data-section="publications">Publications</a></li>
+        <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+        <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#resume" class="nav-link" data-section="resume">Resume</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <i class="fas fa-moon" id="theme-icon"></i>
+        </button>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </button>
       </div>
-    </header>
+    </div>
+  </nav>
 
-    <main id="sections-root" class="container"></main>
+  <main>
+    <!-- ==================== HERO / ABOUT ==================== -->
+    <section id="hero" class="hero">
+      <div class="hero-bg-pattern"></div>
+      <div class="container">
+        <div class="hero-content" id="hero-content">
+          <!-- Dynamically rendered by main.js -->
+        </div>
+      </div>
+      <div class="hero-scroll-indicator">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
 
-    <footer id="site-footer" class="site-footer"></footer>
-    <button id="scroll-to-top" aria-label="Scroll to top">↑</button>
+    <!-- ==================== RESEARCH INTERESTS ==================== -->
+    <section id="research" class="section">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-label">What I Study</span>
+          <h2 class="section-title">Research Interests</h2>
+        </div>
+        <div class="research-grid" id="research-content"></div>
+      </div>
+    </section>
 
-    <script type="module" src="scripts/app.js"></script>
-  </body>
+    <!-- ==================== PUBLICATIONS ==================== -->
+    <section id="publications" class="section section-alt">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-label">My Work</span>
+          <h2 class="section-title">Publications</h2>
+        </div>
+        <div class="publications-list" id="publications-content"></div>
+      </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE ==================== -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-label">My Journey</span>
+          <h2 class="section-title">Experience</h2>
+        </div>
+        <div id="experience-content"></div>
+      </div>
+    </section>
+
+    <!-- ==================== EDUCATION & HONORS ==================== -->
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-label">Academic Background</span>
+          <h2 class="section-title">Education & Honors</h2>
+        </div>
+        <div id="education-content"></div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS ==================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-label">Hands-On Work</span>
+          <h2 class="section-title">Selected Projects</h2>
+        </div>
+        <div class="projects-grid" id="projects-content"></div>
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS & CERTIFICATIONS ==================== -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-label">Expertise</span>
+          <h2 class="section-title">Skills & Certifications</h2>
+        </div>
+        <div id="skills-content"></div>
+      </div>
+    </section>
+
+    <!-- ==================== RESUME ==================== -->
+    <section id="resume" class="section">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-label">Download</span>
+          <h2 class="section-title">Resume / CV</h2>
+        </div>
+        <div class="resume-container animate-on-scroll">
+          <div class="resume-actions">
+            <a href="resume/Joy%20Kumar%20Ghosh.pdf" download class="btn btn-primary" id="resume-download">
+              <i class="fas fa-download"></i> Download Resume (PDF)
+            </a>
+            <a href="resume/Joy%20Kumar%20Ghosh.pdf" target="_blank" class="btn btn-outline" id="resume-open">
+              <i class="fas fa-external-link-alt"></i> Open in New Tab
+            </a>
+          </div>
+          <div class="resume-embed">
+            <iframe src="resume/Joy%20Kumar%20Ghosh.pdf" title="Resume of Joy Kumar Ghosh" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER / CONTACT ==================== -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <div class="footer-content" id="footer-content">
+        <!-- Dynamically rendered by main.js -->
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Joy Kumar Ghosh. All rights reserved.</p>
+        <p class="footer-note">Built with purpose — seeking PhD opportunities worldwide.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="scripts/main.js"></script>
+</body>
 </html>

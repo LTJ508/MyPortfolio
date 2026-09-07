@@ -1,22 +1,42 @@
-{
-  "items": [
-    {
-      "title": "Enhanced Selection Mechanism for Combined Quantum Key Distribution Protocol",
-      "status": "Under Review",
-      "year": "2025",
-      "authorOrder": "First Author"
+[
+  {
+    "id": 1,
+    "title": "Enhanced Selection Schedule for Combined Quantum Key Distribution Protocol",
+    "authors": ["Joy Kumar Ghosh", "Arman Sykot", "Most Atyea Sanjeeda Ema", "Mahdy Rahman Chowdhury"],
+    "journal": "APL Quantum",
+    "publisher": "AIP Publishing",
+    "volume": "3(3)",
+    "year": 2026,
+    "doi": "10.1063/5.0318676",
+    "status": "published",
+    "type": "Journal Article",
+    "tags": ["QKD", "Quantum Cryptography", "GHZ-BB84"],
+    "abstract": "Designed an incrementally-biased Ry-based selection schedule for a hybrid GHZ-BB84 QKD architecture, achieving a 43.67% improvement in key-generation rate over a fixed 50/50 baseline.",
+    "links": {
+      "pdf": "https://pubs.aip.org/aip/apq/article-pdf/doi/10.1063/5.0318676/21059081/036101_1_5.0318676.pdf",
+      "doi": "https://doi.org/10.1063/5.0318676",
+      "code": ""
     },
-    {
-      "title": "Modern C++ Library for Quantum Circuit Simulation: State Vector Simulator",
-      "status": "Under Review",
-      "year": "2025",
-      "authorOrder": "First Author"
+    "highlight": true
+  },
+  {
+    "id": 2,
+    "title": "Accelerating Noisy Quantum Circuit Simulation via Unitary Precomputation",
+    "authors": ["Joy Kumar Ghosh"],
+    "journal": "",
+    "publisher": "",
+    "volume": "",
+    "year": 2024,
+    "doi": "",
+    "status": "under-preparation",
+    "type": "Manuscript",
+    "tags": ["Quantum Computing", "Circuit Simulation", "Noise Mitigation"],
+    "abstract": "Complete manuscript draft and research poster on accelerating noisy quantum circuit simulation techniques. Completed during the thesis phase of an intensive private research program at Mahdy Research Academy.",
+    "links": {
+      "pdf": "",
+      "doi": "",
+      "code": ""
     },
-    {
-      "title": "Machine Learning Based Weather Prediction of Dhaka City",
-      "status": "Manuscript in Preparation",
-      "year": "2025",
-      "authorOrder": "First Author"
-    }
-  ]
-}
+    "highlight": false
+  }
+]

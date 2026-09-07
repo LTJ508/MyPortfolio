@@ -1,12 +1,57 @@
 {
-  "items": [
+  "research": [
     {
-      "emoji": "💼",
-      "role": "Oracle APEX Web Application Developer, Intern",
-      "company": "MySoft Limited",
+      "title": "Undergraduate Research",
+      "organization": "North South University (NSU)",
+      "period": "Spring 2025",
       "location": "Dhaka, Bangladesh",
-      "period": "Aug 2025 - Nov 2025",
-      "details": "Worked on enterprise Oracle APEX backend systems and database-driven applications."
+      "supervisor": "Dr. Mahdy Rahman Chowdhury",
+      "bullets": [
+        "Designed an incrementally-biased Ry-based selection schedule for a hybrid GHZ-BB84 QKD architecture, achieving a 43.67% improvement in key-generation rate over a fixed 50/50 baseline.",
+        "Result published as first-author manuscript in APL Quantum (AIP Publishing)."
+      ]
+    },
+    {
+      "title": "Independent Research — Thesis Phase",
+      "organization": "Mahdy Research Academy",
+      "period": "August 2024 – December 2024",
+      "location": "",
+      "supervisor": "Dr. Mahdy Rahman Chowdhury",
+      "bullets": [
+        "Completed the thesis phase of an intensive private research program in Quantum Computing & Information, as part of a 2-member research team.",
+        "Authored a complete manuscript draft (\"Accelerating Noisy Quantum Circuit Simulation via Unitary Precomputation\") and a research poster summarizing the findings."
+      ]
+    }
+  ],
+  "teaching": [
+    {
+      "title": "CSE Lab Instructor",
+      "organization": "North South University (NSU)",
+      "period": "June 2026 – Present",
+      "location": "Dhaka, Bangladesh",
+      "bullets": [
+        "Teaching 3 lab sections across 2 courses, approximately 120 students total.",
+        "CSE225L (Data Structures & Algorithms Lab) – 2 Sections: Hands-on instruction in core data structures in C++ (arrays, linked lists, stacks, queues, trees, graphs).",
+        "CSE311L (Database Management System Lab) – 1 Section: Delivering instruction in MySQL/MariaDB (XAMPP, phpMyAdmin).",
+        "Authored CSE311L lab manuals featuring problem-first scenarios."
+      ]
+    }
+  ],
+  "industry": [
+    {
+      "title": "Oracle APEX Web Application Developer — Intern",
+      "organization": "MySoft Limited",
+      "period": "Aug 2025 – Nov 2025 (4 Months)",
+      "location": "Dhaka, Bangladesh",
+      "supervisor": "Dr. Abu Sayed Md. Latiful Hoque",
+      "bullets": [
+        "Developed Outpatient Appointment System using Oracle APEX and PL/SQL.",
+        "Participated in SRS Meetings with Client.",
+        "Part of Undergraduate Program under the supervision of Dr. Abu Sayed Md. Latiful Hoque."
+      ],
+      "links": {
+        "demo": "https://oracleapex.com/ords/r/ltj508/opd-appointment-system/"
+      }
     }
   ]
 }

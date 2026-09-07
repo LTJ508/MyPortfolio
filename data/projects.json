@@ -1,70 +1,46 @@
-{
-  "items": [
-    {
-      "name": "Outpatients Appointment System",
-      "emoji": "🏥",
-      "details": "Oracle APEX based hospital appointment system with real-time scheduling and patient management.",
-      "category": "Web Application",
-      "technologies": ["Oracle APEX", "PL/SQL", "Oracle Database"],
-      "completedAt": "2025-11-10",
-      "links": {
-        "demo": "https://oracleapex.com/ords/r/ltj508/opd-appointment-system/"
-      }
-    },
-    {
-      "name": "Nationwide Hospital & Patient Management System",
-      "emoji": "🏨",
-      "details": "Large-scale healthcare system with comprehensive patient records, appointment scheduling, and billing.",
-      "category": "Web Application",
-      "technologies": ["MySQL", "PHP"],
-      "completedAt": "2023-11-23",
-      "links": {
-        "repo": "https://github.com/LTJ508/Centralized-Hospital-Management-System-Using-MySQL"
-      }
-    },
-    {
-      "name": "Bangla Programming Language",
-      "emoji": "💻",
-      "details": "Custom compiler for Bangla programming language with lexical analysis, parsing, and code generation.",
-      "category": "Compiler Design",
-      "technologies": ["C++", "ANTLR"],
-      "completedAt": "2024-12-24",
-      "links": {
-        "repo": "https://github.com/LTJ508/Bangla_Programing_Language"
-      }
-    },
-    {
-      "name": "Inventory Management & Billing System",
-      "emoji": "📦",
-      "details": "Desktop application for inventory tracking, sales management, and automated billing with reporting.",
-      "category": "Desktop Application",
-      "technologies": ["Java", "Java Swing", "OOP"],
-      "completedAt": "2022-12-26",
-      "links": {
-        "repo": "https://github.com/LTJ508/Inventory-Management-and-Billing-System-JAVA"
-      }
-    },
-    {
-      "name": "Diary Management System",
-      "emoji": "📓",
-      "details": "Console-based personal diary system with encryption, search functionality, and data persistence.",
-      "category": "Console Application",
-      "technologies": ["C", "File Handling", "Data Structures"],
-      "completedAt": "2022-04-24",
-      "links": {
-        "repo": "https://github.com/LTJ508/Diary-Management-System-C"
-      }
-    },
-    {
-      "name": "Tomato Leaf Disease Detection",
-      "emoji": "🍅",
-      "details": "Machine learning model for agricultural disease detection using CNN with LIME explainability framework.",
-      "category": "Machine Learning",
-      "technologies": ["Python", "TensorFlow", "CNN", "LIME"],
-      "completedAt": "2025-04-18",
-      "links": {
-        "repo": "https://github.com/LTJ508/CNN_Model"
-      }
+[
+  {
+    "title": "Dhaka City Weather Data Analysis & Prediction",
+    "course": "CSE445 — Machine Learning",
+    "semester": "Summer 2025",
+    "description": "A thorough examination of Dhaka City's weather data in Bangladesh, along with predictions of temperature, humidity, solar energy, solar radiation, and conditions through machine learning algorithms.",
+    "tags": ["Machine Learning", "Data Science", "Python"],
+    "links": {
+      "report": "https://drive.google.com/file/d/1E1X3TMl8diRs3TvKv7ZYU9qxCets0Cmk/view?usp=sharing",
+      "repository": ""
     }
-  ]
-}
+  },
+  {
+    "title": "Tomato Leaf Disease Detection using CNN and LIME as XAI",
+    "course": "CSE465 — Pattern Recognition and Neural Network",
+    "semester": "Spring 2025",
+    "description": "Deep learning-based tomato leaf disease detection using Convolutional Neural Networks with LIME (Local Interpretable Model-agnostic Explanations) for explainability.",
+    "tags": ["Deep Learning", "CNN", "XAI", "LIME"],
+    "links": {
+      "report": "https://drive.google.com/file/d/1cwBOQJHSbaLVhFsmkyXg-mawgTUcW-QB/view?usp=sharing",
+      "repository": "https://github.com/LTJ508/CNN_Model"
+    }
+  },
+  {
+    "title": "Bangla Programming Language — Compiler Design with ANTLR",
+    "course": "CSE425 — Concepts of Programming Language",
+    "semester": "Summer 2024",
+    "description": "Designed and implemented a Bangla programming language with a compiler built using ANTLR (ANother Tool for Language Recognition).",
+    "tags": ["Compiler Design", "ANTLR", "Programming Languages"],
+    "links": {
+      "report": "https://drive.google.com/file/d/1S-znu5cjDFbMx1uKSUo-HgxBaowi9evP/view?usp=sharing",
+      "repository": "https://github.com/LTJ508/Bangla_Programing_Language"
+    }
+  },
+  {
+    "title": "Nationwide Centralized Hospitals & Patients Management System",
+    "course": "CSE311 — Database Systems",
+    "semester": "Summer 2023",
+    "description": "A centralized hospital and patient management system built with MySQL and PHP for nationwide healthcare data management.",
+    "tags": ["Database", "MySQL", "PHP", "Full Stack"],
+    "links": {
+      "report": "https://drive.google.com/file/d/1hVRc_0EQXz5xMDi5F-hMvuTGD3DK3AL5/view?usp=sharing",
+      "repository": "https://github.com/LTJ508/Centralized-Hospital-Management-System-Using-MySQL"
+    }
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "name": "Joy Kumar Ghosh",
+  "tagline": "Quantum Computing & Cryptography Researcher",
+  "currentRole": "CSE Lab Instructor & Aspiring PhD Researcher",
+  "affiliation": "North South University, Dhaka, Bangladesh",
+  "bio": "Computer Science graduate (Magna Cum Laude, CGPA 3.77/4.00) from North South University, with a research focus on quantum information and secure communication. First author of an accepted manuscript in APL Quantum on a hybrid quantum key distribution protocol, achieving a 43.67% improvement in key-generation rate over the baseline. Seeking graduate study opportunities in quantum cryptography, quantum key distribution, and quantum computing.",
+  "photo": "assets/images/profile.jpg",
+  "email": "joydevghosh.joy.jgj@gmail.com",
+  "phone": "+880 1704449534",
+  "location": "Savar, Dhaka, Bangladesh",
+  "links": {
+    "linkedin": "https://linkedin.com/in/joy-kumar-ghosh",
+    "github": "https://github.com/ltj508",
+    "googleScholar": "https://scholar.google.com/citations?user=DoMl8ZwAAAAJ&hl=en",
+    "orcid": "https://orcid.org/0009-0003-5858-8572"
+  },
+  "researchInterests": [
+    {
+      "title": "Quantum Cryptography",
+      "icon": "fa-shield-halved",
+      "description": "Exploring cryptographic protocols leveraging quantum mechanical principles to achieve provably secure communication systems."
+    },
+    {
+      "title": "Quantum Key Distribution",
+      "icon": "fa-key",
+      "description": "Designing and optimizing QKD protocols for efficient and secure key exchange, including hybrid architectures like GHZ-BB84."
+    },
+    {
+      "title": "Quantum Computing",
+      "icon": "fa-atom",
+      "description": "Investigating quantum circuit simulation, noise mitigation, and computational speedup using frameworks like Qiskit and PennyLane."
+    },
+    {
+      "title": "Quantum Communication",
+      "icon": "fa-tower-broadcast",
+      "description": "Studying quantum channels and protocols for secure, high-fidelity information transfer across quantum networks."
+    }
+  ],
+  "education": [
+    {
+      "institution": "North South University (NSU)",
+      "degree": "B.Sc. in Computer Science and Engineering",
+      "distinction": "Magna Cum Laude",
+      "cgpa": "3.77 / 4.00",
+      "equivalentMarks": "≈ 94%",
+      "period": "Jan 2022 – Sep 2025",
+      "location": "Dhaka, Bangladesh"
+    }
+  ],
+  "skills": {
+    "Quantum Tools": ["Qiskit", "PennyLane", "IBM Quantum Runtime"],
+    "Programming": ["Python", "C/C++", "Java"],
+    "ML & Data Science": ["PyTorch", "Scikit-learn", "NumPy", "Pandas", "LIME"],
+    "Database": ["MySQL", "MariaDB", "PL/SQL", "Oracle APEX"],
+    "Dev Tools": ["Git/GitHub", "LaTeX", "XAMPP", "phpMyAdmin"],
+    "Writing & Docs": ["LaTeX", "Microsoft Office", "Google Suite"]
+  },
+  "honorsAwards": [
+    {
+      "title": "Magna Cum Laude",
+      "icon": "fa-award",
+      "issuer": "North South University",
+      "date": "Sep 2025",
+      "description": "Awarded for graduating with a CGPA of 3.77/4.00, placing in the top tier of the graduating class."
+    },
+    {
+      "title": "Merit-Based Scholarship for Academic Excellence",
+      "icon": "fa-medal",
+      "issuer": "North South University",
+      "period": "Spring 2023 – Summer 2025",
+      "description": "Progressively increased: 25% (Spring 2023) → 50% (Spring 2024) → 75% (Summer 2024) → 100% (Summer 2025, final semester)"
+    }
+  ],
+  "languages": [
+    { "language": "English", "proficiency": "Professional" },
+    { "language": "Bangla", "proficiency": "Native" }
+  ]
+}
